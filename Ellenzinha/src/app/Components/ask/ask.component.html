@@ -1,5 +1,6 @@
 <div class="ask">
-    <h3> Quer namorar comigo até a morte?</h3>
-    <button id="sim">SIM</button>
-    <button id="logico">LOGICO</button>
-</div>
+    <h3>Quer namorar comigo até a morte?</h3>
+    <button id="sim" (click)="openDialog()">SIM</button>
+    <button id="logico" (click)="openDialog()">LOGICO</button>
+    <audio #audioPlayer [src]="happy"></audio>
+  </div>
