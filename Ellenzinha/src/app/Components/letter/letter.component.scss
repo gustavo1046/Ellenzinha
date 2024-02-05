@@ -1,0 +1,18 @@
+:host{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter{
+    width: 90%;
+    height: 55vh;
+    color: rgb(53, 53, 53);
+    background-color: rgb(255, 249, 223);
+    overflow: auto;
+    p{
+        margin: 0 10px 0px 10px;
+        padding: 10px 0px 10px 0px;
+        font-size: 20px;
+    }
+}
